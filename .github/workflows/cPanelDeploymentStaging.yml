@@ -2,7 +2,7 @@ name: Publish Website to Web Hosting Staging
 on:
   push:
     branches:
-      - !staging
+      - staging
       
 jobs:
   FTP-Deploy-Action:
