@@ -2,13 +2,9 @@ name: Publish Website to Web Hosting
 on:
   push:
     branches:
-<<<<<<< HEAD:.github/workflows/cPanelDeploymentToStaging.yml
-      - 'staging'
-      - '!main'
-=======
       - 'main'
       - '!staging'
->>>>>>> main:.github/workflows/cPanelDeployment.yml
+      
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
